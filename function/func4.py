@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from UI import func_4_ui, func_4_edit_ui, func_4_field_ui, print_enumerated_dataframe
+from core.UI import func_4_ui, func_4_edit_ui, func_4_field_ui, print_enumerated_dataframe
 
 def func_4():
     file_path = "data/employees.csv"
