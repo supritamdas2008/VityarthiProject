@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from UI import func_3_ui, print_dataframe
+from core.UI import func_3_ui, print_dataframe
 
 def func_3():
     file_path = "data/employees.csv"
