@@ -1,10 +1,10 @@
-from UI import start_ui
-from database import save_lists_to_csv
-from func1 import func_1
-from func2 import func_2
-from func3 import func_3
-from func4 import func_4
-from func5 import func_5
+from core.UI import start_ui
+from core.database import save_lists_to_csv
+from function.func1 import func_1
+from function.func2 import func_2
+from function.func3 import func_3
+from function.func4 import func_4
+from function.func5 import func_5
 
 names, depts, ages, roles, exps, sals = [], [], [], [], [], []
 
