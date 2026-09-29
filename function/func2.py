@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from UI import func_2_ui, print_dataframe
+from core.UI import func_2_ui, print_dataframe
 
 def func_2():
     func_2_ui()
