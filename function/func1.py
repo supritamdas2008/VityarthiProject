@@ -1,4 +1,4 @@
-from UI import func_1_ui
+from core.UI import func_1_ui
 
 def func_1(names, depts, ages, roles, exps, sals):
     while True:
