@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from UI import print_report_ui
+from core.UI import print_report_ui
 
 def func_5():
     file_path = "data/employees.csv"
