@@ -48,6 +48,11 @@ To run this project, you will need Python installed on your system along with th
 * Python 3.x
 * Pandas
 
+# Install the required Python dependencies:
+   ```bash
+   pip install pandas
+   ```
+
 ## Installation
 
 1. Clone this repository to your local machine:
@@ -58,11 +63,6 @@ To run this project, you will need Python installed on your system along with th
 2. Navigate to the project directory:
    ```bash
    cd employee-database-system
-   ```
-
-3. Install the required Python dependencies:
-   ```bash
-   pip install pandas
    ```
 
 ## Usage
