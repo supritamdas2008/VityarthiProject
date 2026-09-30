@@ -48,7 +48,7 @@ To run this project, you will need Python installed on your system along with th
 * Python 3.x
 * Pandas
 
-# Install the required Python dependencies:
+### Install the required Python dependencies:
    ```bash
    pip install pandas
    ```
