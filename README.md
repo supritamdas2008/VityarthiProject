@@ -30,13 +30,15 @@ This project uses a modular architecture to separate the user interface, databas
 
 ```text
 ├── main.py          # Primary application execution loop and menu routing
-├── UI.py            # Centralized UI components, tables, and report layouts
-├── database.py      # Persistence module for batch saving to CSV
-├── func1.py         # Module: Add new employee records
-├── func2.py         # Module: Display all employee records
-├── func3.py         # Module: Search database records
-├── func4.py         # Module: Edit or delete existing records
-├── func5.py         # Module: Generate analytical summary reports
+├── core/
+    └── UI.py            # Centralized UI components, tables, and report layouts
+    ├── database.py      # Persistence module for batch saving to CSV
+├── function/
+    └── func1.py         # Module: Add new employee records
+    ├── func2.py         # Module: Display all employee records
+    ├── func3.py         # Module: Search database records
+    ├── func4.py         # Module: Edit or delete existing records
+    ├── func5.py         # Module: Generate analytical summary reports
 └── data/
     └── employees.csv # Persistent database file (auto-generated)
 ```
@@ -57,12 +59,12 @@ To run this project, you will need Python installed on your system along with th
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/employee-database-system.git
+   git clone https://github.com/supritamdas2008/VityarthiProject.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd employee-database-system
+   cd VityarthiProject
    ```
 
 ## Usage
